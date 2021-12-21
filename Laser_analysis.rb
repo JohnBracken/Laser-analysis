@@ -1,6 +1,5 @@
 #!/usr/bin/ruby
 
-
 #Script to analyze info about different 
 #kinds of lasers using OOP.
 
@@ -39,5 +38,5 @@ laser_data.each do |row|
 end
 
 #Write the results to an output file using:
-# ruby Laser_analysis.rb | cat >> output_file
+# ruby Laser_analysis.rb | cat >> laser_summary_file.md
 

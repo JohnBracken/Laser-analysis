@@ -13,11 +13,11 @@ class Laser
     end
 
     def laser_summary
-        puts "Laser type: " + get_laser
-        puts "Wavelength: " + get_wavelength.to_s + " nm"
-        puts "Photon Energy: " + get_energy.to_s + " eV"
-        puts "Pump Source: " + get_pump_source
-        puts "Applications: " + get_applications
+        puts "* Laser type: " + get_laser
+        puts "* Wavelength: " + get_wavelength.to_s + " nm"
+        puts "* Photon Energy: " + get_energy.to_s + " eV"
+        puts "* Pump Source: " + get_pump_source
+        puts "* Applications: " + get_applications
         puts "\n\n"
     end  
  
@@ -31,12 +31,12 @@ class SemiconductorLaser < Laser
     end
 
     def laser_summary  #Special version of laser summary method.
-        puts "Laser type: Semiconductor"
-        puts "Semiconductor: " + get_laser
-        puts "Wavelength: " + get_wavelength.to_s + " nm"
-        puts "Photon Energy: " + get_energy.to_s + " eV"
-        puts "Pump Source: " + get_pump_source
-        puts "Applications: " + get_applications
+        puts "* Laser type: Semiconductor"
+        puts "* Semiconductor: " + get_laser
+        puts "* Wavelength: " + get_wavelength.to_s + " nm"
+        puts "* Photon Energy: " + get_energy.to_s + " eV"
+        puts "* Pump Source: " + get_pump_source
+        puts "* Applications: " + get_applications
         puts "\n\n"
     end 
  
